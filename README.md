@@ -21,7 +21,7 @@ Build a stand-alone shipping service API that calculates estimated shipping cost
 - Integrate the [ActiveShipping](https://github.com/Shopify/active_shipping) gem to do shipping-specific logic for you
 
 ## Project Baseline
-Setup both rails applications Before building and implementing your shipping API. One rails app will be the provided Betsy project, Petsy. The other will be from scratch, for your Shipping API. 
+Setup both rails applications Before building and implementing your shipping API. One rails app will be the provided Betsy project, Petsy. The other will be from scratch, for your Shipping API.
 
 ### Baseline Requirements
 - a new Rails 4.2.7 application for your API
@@ -32,7 +32,7 @@ Setup both rails applications Before building and implementing your shipping API
     - review Petsy code to come up with a basic understanding of the current checkout user flow
 
 ## Project Expectations
-Your API should generate a quote with options of shipping services and thier cost by different carriers. The quote will be based on given addresses and a set of packages. Then, implement your API into Petsy. 
+Your API should generate a quote with options of shipping services and thier cost by different carriers. The quote will be based on given addresses and a set of packages. Then, implement your API into Petsy.
 
 ### Technical Requirements
 #### Your API will:
@@ -50,6 +50,7 @@ Your API should generate a quote with options of shipping services and thier cos
   - Cost
   - Delivery estimate
   - Tracking information (when available)
+- Allow the user to select a particular shipping option for their order, the cost of which will be included in the order's total
 
 ### Testing
 - 95% test coverage for all API Controller actions, Model validations, and Model methods
